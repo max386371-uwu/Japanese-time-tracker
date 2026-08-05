@@ -1,0 +1,2 @@
+# Language-time-tracker
+Initial Release, The first public version of Language Study Tracker.  Current Features  - Study timer - Projects - Dashboard - Reports - Multi-language foundation - Themes - Settings - Local backups
