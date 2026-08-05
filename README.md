@@ -6,10 +6,26 @@ Track your study time, projects, goals, and progress with a modern, customizable
 
 > **Current Status:** v0.1 Alpha (Japanese-only)
 
-##images
-Popup:  <img width="470" height="649" alt="image" src="https://github.com/user-attachments/assets/3464dc7d-bfae-4f01-a954-073cbd9d4e85" />
-<img width="1366" height="610" alt="image" src="https://github.com/user-attachments/assets/687894c7-0661-4f7b-9eb7-391c0efabcb6" />
-<img width="1366" height="610" alt="image" src="https://github.com/user-attachments/assets/4d775776-e631-4540-90ad-0715fbd8fe18" />
+## Screenshots
+
+<table>
+<tr>
+<td align="center">
+<b>Popup</b><br>
+<img src="https://github.com/user-attachments/assets/3464dc7d-bfae-4f01-a954-073cbd9d4e85" width="250">
+</td>
+
+<td align="center">
+<b>Dashboard</b><br>
+<img src="https://github.com/user-attachments/assets/687894c7-0661-4f7b-9eb7-391c0efabcb6" width="250">
+</td>
+
+<td align="center">
+<b>Reports</b><br>
+<img src="https://github.com/user-attachments/assets/4d775776-e631-4540-90ad-0715fbd8fe18" width="250">
+</td>
+</tr>
+</table>
 
 
 
