@@ -51,7 +51,7 @@ Track your study time, projects, goals, and progress with a modern, customizable
 ### Reports
 - Pie charts and graphs.
 - Time breakdowns.
-- Detailed study statistics.
+- Study statistics.
 
 ### Customization
 - Multiple themes.
@@ -59,20 +59,20 @@ Track your study time, projects, goals, and progress with a modern, customizable
 
 ### Backup
 - Local-first storage.
-- Import and export backups.
-
+- Import and export backups(.json)
+-To and from Toggl, as CSV.
 ---
 
 ## Planned Features
 
 - Multi-language support
 - Companion website
-- Optional cloud sync
-- Multi-device sync
-- Friends & profiles
-- Leaderboards
-- Simple Mode
-- Additional customization
+- Optional cloud sync-*
+- Multi-device sync---* (These "*" four should all come out in one version, or not if i decide not to)
+- Friends & profiles--*
+- Leaderboards--------*
+- Simple Mode (next version)
+- Additional customization (Also in the next version)
 
 ---
 
