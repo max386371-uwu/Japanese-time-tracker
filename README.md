@@ -16,12 +16,12 @@ Track your study time, projects, goals, and progress with a modern, customizable
 </td>
 
 <td align="center">
-<b>Dashboard</b><br>
+<b>Settings</b><br>
 <img src="https://github.com/user-attachments/assets/687894c7-0661-4f7b-9eb7-391c0efabcb6" width="250">
 </td>
 
 <td align="center">
-<b>Reports</b><br>
+<b>Projects</b><br>
 <img src="https://github.com/user-attachments/assets/4d775776-e631-4540-90ad-0715fbd8fe18" width="250">
 </td>
 </tr>
