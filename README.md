@@ -1,16 +1,28 @@
 # Japanese Tracker 時
 
-A free, unlimited, offline-first time tracker for your Japanese learning journey
+A free, unlimited, offline-first time tracker for your Japanese learning journey.
 
 **No ads. No subscriptions. No accounts. No time limits.**
 
 Everything is stored locally in your browser using `chrome.storage.local`. Your data stays on your device unless you choose to export it.
 
-The app's icon and logo use the kanji **時** ("time/hour") with a simple gradient design and automatically adapt to the selected theme.
+The app's icon and logo use the kanji **時** ("time/hour") with a simple gradient design that automatically adapts to the selected theme.
+
+## Screenshots
+
+<img width="470" height="605" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/eb743d6a-864a-4929-90a6-ab6b23b0e21c" />
+
+<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/08c80e8f-d9f3-486e-9df2-0cf4fb689676" />
+
+<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/63491ac8-6445-4081-9a13-c00474e1948f" />
+
+<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/2aaa2254-9813-43d0-8630-5003aec7815d" />
+
+<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/d0d8fc63-65f5-4624-82d8-043cba7ba359" />
 
 ## Features
 
-- **Popup** — Quickly start a timer, resume a recent project + tag combination, add tags, or cancel/stop a timer.
+- **Popup** — Quickly start a timer, resume a recent project + tag combination, add tags, or stop/cancel a timer.
 - **Dashboard** — View study time, streaks, project totals, date ranges, and a GitHub-style study calendar.
 - **Timer** — Full-size live timer with Stop & Save, Cancel, and the ability to log past sessions.
 - **Projects** — Create, rename, recolor, reorder, archive, and delete projects. Add goals and view/edit sessions for each project.
@@ -39,7 +51,7 @@ You can also customize colors, sidebar position, density, font size, Simple Mode
 
 ### JSON Backup
 
-Japanese Tracker supports full JSON backups containing your:
+Japanese Tracker supports full JSON backups containing:
 
 - Sessions
 - Projects
@@ -60,7 +72,7 @@ Export your tracked time as CSV for use with other time-tracking tools and sprea
 
 You can also import compatible Toggl and Clockify CSV exports. The importer provides a preview before adding anything.
 
-## Importing from Toggl
+### Importing from Toggl
 
 Go to:
 
