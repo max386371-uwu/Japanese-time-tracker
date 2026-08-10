@@ -1,68 +1,120 @@
 # Japanese Tracker 時
 
-A free, unlimited, offline-first time tracker for your Japanese learning journey — inspired by Toggl's tracking workflow and Refold's long-term-journey philosophy.
+A free, unlimited, offline-first time tracker for your Japanese learning journey — inspired by Toggl's tracking workflow and Refold's long-term learning philosophy.
 
-No ads. No subscriptions. No accounts. No time limits. Everything lives in your browser's local storage, on your machine only.
+**No ads. No subscriptions. No accounts. No time limits.**
 
-Every icon and logo (toolbar icon, sidebar mark, popup mark) is the kanji **時** ("time/hour") on a plain gradient background — no ring, no extra ornamentation — and it automatically re-colors to match whichever theme is selected in Settings, including the actual browser toolbar icon.
+Everything is stored locally in your browser using `chrome.storage.local`. Your data stays on your device unless you choose to export it.
 
-## Install (unpacked / developer mode)
+The app's icon and logo use the kanji **時** ("time/hour") with a simple gradient design and automatically adapt to the selected theme.
 
-1. Open `chrome://extensions` in Chrome (or any Chromium browser — Edge, Brave, etc.).
-2. Turn on **Developer mode** (top-right toggle).
-3. Click **Load unpacked** and select this folder (the one containing `manifest.json`).
-4. Pin the extension for one-click access to the popup.
+## Features
 
-## What's inside
+- **Popup** — Quickly start a timer, resume a recent project + tag combination, add tags, or cancel/stop a timer.
+- **Dashboard** — View study time, streaks, project totals, date ranges, and a GitHub-style study calendar.
+- **Timer** — Full-size live timer with Stop & Save, Cancel, and the ability to log past sessions.
+- **Projects** — Create, rename, recolor, reorder, archive, and delete projects. Add goals and view/edit sessions for each project.
+- **Reports** — Day, Week, Month, Year, and All Time views with project/tag pie charts, trend graphs, heatmaps, and session timelines.
+- **Notebook** — Personal space for milestones, notes, goals, reflections, and study logs.
+- **Search** — Search projects, tags, Notebook entries, goals, and sessions.
+- **Settings** — Themes, custom colors, custom icons, sidebar/layout options, Simple Mode, dashboard customization, week-start settings, session-length thresholds, and backup tools.
+- **Tags** — Add multiple tags to sessions and use them for filtering and reports.
+- **Right-click menu** — Start a timer or start one with a specific project from any page.
+- **Keyboard shortcut** — `Alt+Shift+J` starts the last-used project or stops and saves the current timer.
 
-- **Popup** — resume a project+tag combo used in the last 24 hours in one click (older ones roll off automatically), start a timer, add tags. While running: **Stop & save** or **✕ cancel** to discard (no pause/resume — just start, stop, or throw it away). Turn on Simple mode (Settings) to shrink Resume down to a bare ▶.
-- **Dashboard** — stats, streak, a sortable (By time / A–Z) time-by-project breakdown with an inline range picker, and a GitHub-style study calendar heatmap.
-- **Timer** — the full-size live timer (same Stop & Save / Cancel model as the popup), plus "Log a past session" for backfilling time.
-- **Projects** — create/rename/recolor/reorder/archive/delete, multi-period goals with progress bars, and a **Sessions** button per project to view/edit/delete that project's logged time.
-- **Reports** — Day/Week/Month/Year/All-time breakdowns, pie charts (project & tag, with the total centered in the ring and percentages on hover), a real period-over-period trend line, the heatmap, and an editable/sortable session timeline (Newest / Oldest / By project). Sessions can be edited or deleted right here too.
-- **Notebook** — milestones, notes, goals, reflections, and study logs with checkboxes. Can be hidden from the sidebar entirely in Settings.
-- **Search** — one box across projects, tags, notebook entries, goals, and sessions.
-- **Settings** — 6 themes (Navy, Sumi ink, Sakura, Washi paper, Matcha, Indigo) with full per-color fine-tuning; a custom logo/icon (theme-matched, a solid color of your choice, or your own uploaded image — updates the toolbar icon too); layout options (sidebar left/right, comfortable/compact density, and **Simple mode**, which strips titles/descriptions/labels everywhere while keeping every feature, date, and stat intact); which dashboard widgets and whether Notebook show up; week start day and a minimum-session-length threshold; tag rename/delete; JSON backup export **and** a Replace-or-Merge choice on import; CSV export (Toggl/Clockify-compatible) and Toggl CSV import.
-- **Right-click menu** — "Start Japanese Tracker timer" (resumes your last project) and "Start timer with project…" on any page.
-- **Keyboard shortcut** — `Alt+Shift+J` stops & saves a running timer, or starts the last-used project if none is running.
+## Themes & Customization
+
+Includes six built-in themes:
+
+- Navy
+- Sumi Ink
+- Sakura
+- Washi Paper
+- Matcha
+- Indigo
+
+You can also customize colors, sidebar position, density, font size, Simple Mode, dashboard widgets, and the extension icon.
+
+## Import & Export
+
+### JSON Backup
+
+Japanese Tracker supports full JSON backups containing your:
+
+- Sessions
+- Projects
+- Tags
+- Goals
+- Notebook entries
+- Settings
+- Customization
+
+When importing a backup, choose:
+
+- **Merge** — Combines the backup with existing data while avoiding duplicates.
+- **Replace** — Replaces the current data after confirmation.
+
+### CSV
+
+Export your tracked time as CSV for use with other time-tracking tools and spreadsheets.
+
+You can also import compatible Toggl and Clockify CSV exports. The importer provides a preview before adding anything.
 
 ## Importing from Toggl
 
-Settings → Backup & export → **Import from Toggl CSV**:
+Go to:
 
-1. In Toggl: **Reports → Detailed → Export → CSV** (paid plans), or on the free plan, **Settings → Data Export → Time Entries** (exported one year at a time).
-2. Pick the file — you get a preview (session count, total time, date range, which projects/tags are new vs. matched) before anything is written. This import is always additive/merge-style: nothing existing is overwritten.
+**Settings → Backup & Export → Import from Toggl CSV**
 
-The same importer reads Clockify-style exports and anything with similar "Project / Start date / Start time / Duration (or End date+time) / Tags" columns.
+The importer previews the data before importing, including:
 
-**Exporting to Toggl/Clockify:** Settings → **Export as CSV** produces the same column layout, so it can be re-imported into Toggl, Clockify, or here again.
+- Number of sessions
+- Total time
+- Date range
+- New and existing projects
+- New and existing tags
 
-## Backup: Replace vs. Merge
+Toggl CSV imports are additive, so existing data is not overwritten.
 
-Settings → **Import backup** (the app's own `.json` format) now asks which you want:
-- **Merge** — combines the backup into what's already on this device (matches projects/tags by name, skips duplicate sessions/notebook entries). Nothing existing is deleted.
-- **Replace** — completely replaces your current data with the backup's contents. Asks for confirmation first since it can't be undone.
+## Data & Privacy
 
-## Data & backup
+Everything is stored locally using:
 
-Everything is stored with `chrome.storage.local` — nothing leaves your device, and there's no server or API key involved.
+`chrome.storage.local`
 
-## Folder structure
+Japanese Tracker does not require:
 
-```
-manifest.json          Manifest V3 config
-background.js          Service worker: context menu, keyboard command, themed toolbar icon
-icons/                 Static baseline 時 icon at 16/32/48/128px (navy theme; re-themed live at runtime)
-shared/                 Storage schema + CRUD, time/date helpers, chart renderers, tooltip/UI helpers,
-                        CSV import/export, session-edit modal, layout + icon rendering
-popup/                  Toolbar popup (quick start/stop/cancel, recent list)
-app/                    Full-page app (dashboard, timer, projects, reports, notebook, search, settings)
-  app.html / app.css / app.js   Shell, sidebar, router
-  pages/                One module per page
-```
+- An account
+- A server
+- An API key
+- Cloud storage
+- An internet connection for normal tracking
 
-No build step — it's plain ES modules, so you can edit any file and just reload the extension.
+Your data stays on your device unless you choose to export it.
 
-## A note on a future GitHub Pages / website version
+**Important:** Because data is stored locally, use the JSON backup feature if you want protection against browser/profile loss or device failure.
 
-Everything above talks to `chrome.storage.local` directly, which only exists inside an extension. If this ever becomes a plain website (e.g. hosted free on GitHub Pages), the one real piece of work is swapping that for a small storage adapter (same `get`/`set` interface, backed by `localStorage`/IndexedDB instead) — the page code itself is already just static ES modules with no build step. A website tab and the installed extension would be separate storage sandboxes with no automatic sync between them; the JSON backup export/import is the bridge for moving data between the two. Not built yet — just designed with the door left open.
+## Installation
+
+### Chrome / Chromium / Brave / Edge
+
+1. Download or clone this repository.
+2. Open `chrome://extensions`.
+3. Enable **Developer mode**.
+4. Click **Load unpacked**.
+5. Select the folder containing `manifest.json`.
+6. Pin Japanese Tracker for quick access.
+
+## Folder Structure
+
+```text
+manifest.json
+background.js
+icons/
+shared/
+popup/
+app/
+  app.html
+  app.css
+  app.js
+  pages/
