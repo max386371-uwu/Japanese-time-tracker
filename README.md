@@ -1,6 +1,6 @@
 # Japanese Tracker 時
 
-A free, unlimited, offline-first time tracker for your Japanese learning journey — inspired by Toggl's tracking workflow and Refold's long-term learning philosophy.
+A free, unlimited, offline-first time tracker for your Japanese learning journey
 
 **No ads. No subscriptions. No accounts. No time limits.**
 
