@@ -45,7 +45,7 @@ Includes six built-in themes:
 - Matcha
 - Indigo
 
-You can also customize colors, sidebar position, density, font size, Simple Mode, dashboard widgets, and the extension icon.
+You can also customize colors, sidebar position, density, font size, Simple Mode, dashboard widgets, and the extension icon, etc.
 
 ## Import & Export
 
