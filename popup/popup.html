@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Japanese Tracker</title>
+<link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="jt-popup">
+    <header class="jt-popup-header">
+      <div class="jt-brand">
+        <span class="jt-mark">時</span>
+        <span class="jt-brand-name">Japanese Tracker</span>
+      </div>
+      <button id="openDashboard" class="jt-icon-btn" title="Open dashboard">⤢</button>
+    </header>
+
+    <section id="timerSection" class="jt-timer-section"></section>
+
+    <section class="jt-recent-section">
+      <h2>Recent</h2>
+      <div id="recentList" class="jt-recent-list"></div>
+    </section>
+  </div>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

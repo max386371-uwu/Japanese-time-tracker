@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Japanese Tracker</title>
+<link rel="icon" href="../icons/icon32.png" />
+<link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="jt-shell">
+    <aside class="jt-sidebar">
+      <div class="jt-sidebar-brand">
+        <span class="jt-mark">時</span>
+        <div>
+          <div class="jt-brand-title">Japanese Tracker</div>
+          <div class="jt-brand-sub" id="streakSummary">—</div>
+        </div>
+      </div>
+
+      <nav class="jt-nav" id="mainNav">
+        <a href="#/dashboard" data-route="dashboard"><span class="jt-nav-ic">◧</span>Dashboard</a>
+        <a href="#/timer" data-route="timer"><span class="jt-nav-ic">◔</span>Timer</a>
+        <a href="#/projects" data-route="projects"><span class="jt-nav-ic">▤</span>Projects</a>
+        <a href="#/reports" data-route="reports"><span class="jt-nav-ic">▦</span>Reports</a>
+        <a href="#/notebook" data-route="notebook"><span class="jt-nav-ic">✎</span>Notebook</a>
+        <a href="#/search" data-route="search"><span class="jt-nav-ic">⌕</span>Search</a>
+      </nav>
+
+      <div class="jt-sidebar-footer">
+        <a href="#/settings" data-route="settings" class="jt-settings-link"><span class="jt-nav-ic">⚙</span>Settings</a>
+        <p class="jt-tagline">Free · Offline · No accounts</p>
+      </div>
+    </aside>
+
+    <main class="jt-main">
+      <div class="jt-page" id="pageRoot"></div>
+    </main>
+  </div>
+
+  <div class="jt-modal-backdrop" id="modalBackdrop"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
