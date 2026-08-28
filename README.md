@@ -10,18 +10,15 @@ The app's icon and logo use the kanji **時** ("time/hour") with a simple gradie
 
 ## Screenshots
 
-< <img width="446" height="630" alt="fcv0hFoPeM" src="https://github.com/user-attachments/assets/bfc9042f-384f-4f81-8ea5-cd775d70612d" />
+<img width="446" height="630" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/bfc9042f-384f-4f81-8ea5-cd775d70612d" />
 
-/>
+<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/08c80e8f-d9f3-486e-9df2-0cf4fb689676" />
 
-<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/08c80e8f-d9f3-486e-9df2-0cf4fb689676" />
+<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/8c3a12d3-6d8f-4d6f-b4c9-91bc1f24f024" />
 
-<img <img width="1366" height="610" alt="brave_txkvq5orPQ" src="https://github.com/user-attachments/assets/8c3a12d3-6d8f-4d6f-b4c9-91bc1f24f024" />
- />
+<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/2aaa2254-9813-43d0-8630-5003aec7815d" />
 
-<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/2aaa2254-9813-43d0-8630-5003aec7815d" />
-
-<img width="1366" height="610" alt="Japanese Tracker screenshot" src="https://github.com/user-attachments/assets/d0d8fc63-65f5-4624-82d8-043cba7ba359" />
+<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/d0d8fc63-65f5-4624-82d8-043cba7ba359" />
 
 ## Features
 
