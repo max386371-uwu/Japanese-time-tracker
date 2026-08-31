@@ -117,6 +117,8 @@ Your data stays on your device unless you choose to export it.
 5. Select the folder containing `manifest.json`.
 6. Pin Japanese Tracker for quick access.
 
+## Get the all languages version here! https://github.com/max386371-uwu/Language-Tracker
+
 ## Folder Structure
 
 ```text
