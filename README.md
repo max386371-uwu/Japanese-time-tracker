@@ -2,124 +2,72 @@
 
 A free, unlimited, offline-first time tracker for your Japanese learning journey.
 
-**No ads. No subscriptions. No accounts. No time limits.**
+**No ads. No subscriptions. No accounts. No servers.** Your data stays on your device in your browser's local storage.
 
-Everything is stored locally in your browser using `chrome.storage.local`. Your data stays on your device unless you choose to export it.
-
-The app's icon and logo use the kanji **時** ("time/hour") with a simple gradient design that automatically adapts to the selected theme.
-
-## Screenshots
-
-<img width="446" height="630" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/bfc9042f-384f-4f81-8ea5-cd775d70612d" />
-
-<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/08c80e8f-d9f3-486e-9df2-0cf4fb689676" />
-
-<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/8c3a12d3-6d8f-4d6f-b4c9-91bc1f24f024" />
-
-<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/2aaa2254-9813-43d0-8630-5003aec7815d" />
-
-<img width="1366" height="610" alt="Language Study Tracker" src="https://github.com/user-attachments/assets/d0d8fc63-65f5-4624-82d8-043cba7ba359" />
+**Looking for the all-languages version?** Visit [Language Tracker](https://github.com/max386371-uwu/Language-Tracker).
 
 ## Features
 
-- **Popup** — Quickly start a timer, resume a recent project + tag combination, add tags, or stop/cancel a timer.
-- **Dashboard** — View study time, streaks, project totals, date ranges, and a GitHub-style study calendar.
-- **Timer** — Full-size live timer with Stop & Save, Cancel, and the ability to log past sessions.
-- **Projects** — Create, rename, recolor, reorder, archive, and delete projects. Add goals and view/edit sessions for each project.
-- **Reports** — Day, Week, Month, Year, and All Time views with project/tag pie charts, trend graphs, heatmaps, and session timelines.
-- **Notebook** — Personal space for milestones, notes, goals, reflections, and study logs.
-- **Search** — Search projects, tags, Notebook entries, goals, and sessions.
-- **Settings** — Themes, custom colors, custom icons, sidebar/layout options, Simple Mode, dashboard customization, week-start settings, session-length thresholds, and backup tools.
-- **Tags** — Add multiple tags to sessions and use them for filtering and reports.
-- **Right-click menu** — Start a timer or start one with a specific project from any page.
-- **Keyboard shortcut** — `Alt+Shift+J` starts the last-used project or stops and saves the current timer.
+- **Quick Timer:** Start, stop, cancel, or resume recent project-and-tag combinations.
+- **Dashboard:** Study statistics, project/tag pie charts, yearly study calendar, consistency chart, and editable session history—all on one customizable page.
+- **Projects & Tags:** Organize study sessions, set goals, track progress, and manage projects and tags.
+- **Japanese Search:** Search using hiragana, katakana, and romaji, including common spelling variations.
+- **Notebook:** Track milestones, notes, goals, reflections, and study logs.
+- **Global Search:** Search projects, tags, notebook entries, goals, and sessions.
+- **Customization:** Six themes, custom colors and logos, layout controls, Simple Mode, and dashboard widget reordering.
+- **Quick Access:** Customizable keyboard shortcut (`Alt+Shift+J`) and right-click menu.
+- **Import & Export:** JSON backups and CSV support for Toggl, Clockify, and spreadsheets.
 
-## Themes & Customization
+## Dashboard
 
-Includes six built-in themes:
+Dashboard and Reports are combined into one page with Day, Week, Month, Year, and All Time filters. Customize widget visibility and ordering in **Settings → Edit dashboard**. Browse yearly study activity, compare project and tag totals, and edit or delete sessions.
 
-- Navy
-- Sumi Ink
-- Sakura
-- Washi Paper
-- Matcha
-- Indigo
+## Japanese Search
 
-You can also customize colors, sidebar position, density, font size, Simple Mode, dashboard widgets, and the extension icon, etc.
+Search matches hiragana and katakana interchangeably and supports romaji and common spelling variations. For kanji, include the reading in the name—for example, `日本語 にほんご` can be found with `nihongo`.
+
+## Themes
+
+Choose from six built-in themes: **Navy, Sumi Ink, Sakura, Washi Paper, Matcha, and Indigo.** Customize colors, icons, sidebar layout, density, and other settings.
 
 ## Import & Export
 
-### JSON Backup
+**JSON backups:** Export your sessions, projects, tags, goals, notebook entries, settings, and customization.
 
-Japanese Tracker supports full JSON backups containing:
+- **Merge:** Combine backup data with existing data while avoiding duplicates.
+- **Replace:** Replace current data after confirmation.
 
-- Sessions
-- Projects
-- Tags
-- Goals
-- Notebook entries
-- Settings
-- Customization
+**CSV:** Export tracked time and import compatible Toggl or Clockify files. Imports show a preview and add sessions without overwriting existing ones.
 
-When importing a backup, choose:
+## Data Limits & Reliability
 
-- **Merge** — Combines the backup with existing data while avoiding duplicates.
-- **Replace** — Replaces the current data after confirmation.
+Designed for large study histories, with limits of:
 
-### CSV
+- 5,000 projects
+- 2,000 tags
+- 5,000 notebook items per type
+- 100 tags per session
+- 100 goals per project
+- 200 characters per project name, tag name, and notebook title
+- 20,000 characters per note
 
-Export your tracked time as CSV for use with other time-tracking tools and spreadsheets.
+Data limits are centralized, and coordinated writes help prevent conflicting changes. Import and restore operations are designed to preserve data rather than silently truncate it.
 
-You can also import compatible Toggl and Clockify CSV exports. The importer provides a preview before adding anything.
+## Privacy
 
-### Importing from Toggl
-
-Go to:
-
-**Settings → Backup & Export → Import from Toggl CSV**
-
-The importer previews the data before importing, including:
-
-- Number of sessions
-- Total time
-- Date range
-- New and existing projects
-- New and existing tags
-
-Toggl CSV imports are additive, so existing data is not overwritten.
-
-## Data & Privacy
-
-Everything is stored locally using:
-
-`chrome.storage.local`
-
-Japanese Tracker does not require:
-
-- An account
-- A server
-- An API key
-- Cloud storage
-- An internet connection for normal tracking
-
-Your data stays on your device unless you choose to export it.
-
-**Important:** Because data is stored locally, use the JSON backup feature if you want protection against browser/profile loss or device failure.
+Everything is stored locally using `chrome.storage.local`. No account, server, API key, or cloud storage is required, and normal tracking works offline. **Back up your data regularly** to protect against browser-profile loss or device failure.
 
 ## Installation
 
-### Chrome / Chromium / Brave / Edge
+Works with Chrome and Chromium-based browsers, including Brave and Edge.
 
 1. Download or clone this repository.
 2. Open `chrome://extensions`.
 3. Enable **Developer mode**.
-4. Click **Load unpacked**.
-5. Select the folder containing `manifest.json`.
-6. Pin Japanese Tracker for quick access.
+4. Click **Load unpacked** and select the folder containing `manifest.json`.
+5. Pin the extension for quick access.
 
-## Get the all languages version here! https://github.com/max386371-uwu/Language-Tracker
-
-## Folder Structure
+## Project Structure
 
 ```text
 manifest.json
@@ -132,3 +80,16 @@ app/
   app.css
   app.js
   pages/
+```
+
+The extension uses plain JavaScript ES modules with **no build step**.
+
+## What's Changed
+
+- Combined Dashboard and Reports into one customizable page.
+- Improved charts, yearly navigation, and Japanese search.
+- Added searchable popup tags and custom logos/icons.
+- Increased data limits and improved data safety.
+- Expanded search and improved session and Notebook management.
+
+**Japanese Tracker 時 is free, private, and built for long-term Japanese learning.**
