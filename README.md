@@ -6,6 +6,21 @@ A free, unlimited, offline-first time tracker for your Japanese learning journey
 
 **Looking for the all-languages version?** Visit [Language Tracker](https://github.com/max386371-uwu/Language-Tracker).
 
+## Screenshots
+<img width="1892" height="912" alt="NQbQSrF3rl" src="https://github.com/user-attachments/assets/5e4f7e16-218d-4451-b543-1b8aec9ebeb6" />
+<img width="1892" height="913" alt="IdJdtNiRRP" src="https://github.com/user-attachments/assets/14090133-7411-40e4-be01-b79ed65984c3" />
+## Screenshots
+
+<p align="center">
+  <img width="49%" src="https://github.com/user-attachments/assets/5264f7bc-fd63-4236-a605-dec324e962e0" alt="Screenshot 1" />
+  <img width="49%" src="https://github.com/user-attachments/assets/9233e7a0-66a3-47b9-946a-20f3dc66af93" alt="Screenshot 2" />
+</p>
+<img width="1885" height="908" alt="FgcwS5DxLS" src="https://github.com/user-attachments/assets/dbcf0871-b752-4808-88a9-5707cd768291" />
+<img width="1895" height="909" alt="brave_F1MxUoftvh" src="https://github.com/user-attachments/assets/ca072c8a-71c2-4e09-9d35-9a79dfe59d3b" />
+<img width="1920" height="914" alt="brave_Dm9N6G7I7b" src="https://github.com/user-attachments/assets/4af30db4-cbef-4674-90a4-4f810bbeb2c8" />
+<img width="1881" height="908" alt="blLi58nvNi" src="https://github.com/user-attachments/assets/4189b69f-23df-4b0f-9226-639540ddda79" />
+
+
 ## Features
 
 - **Quick Timer:** Start, stop, cancel, or resume recent project-and-tag combinations.
@@ -28,7 +43,7 @@ Search matches hiragana and katakana interchangeably and supports romaji and com
 
 ## Themes
 
-Choose from six built-in themes: **Navy, Sumi Ink, Sakura, Washi Paper, Matcha, and Indigo.** Customize colors, icons, sidebar layout, density, and other settings.
+Choose from six built-in themes: **Navy, Sumi Ink, Sakura, Washi Paper, Matcha, and Indigo.** Customize colors, icons, sidebar layout, density, and many, many other settings.
 
 ## Import & Export
 
