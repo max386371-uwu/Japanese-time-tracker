@@ -1,6 +1,6 @@
 # Japanese Tracker 時
 
-A free, unlimited, offline-first time tracker for your Japanese learning journey.
+A free, unlimited, offline-first time tracker for Japanese. 
 
 **No ads. No subscriptions. No accounts. No servers.** Your data stays on your device in your browser's local storage.
 
@@ -28,13 +28,21 @@ Studying multiple languages? Check out **[Language Tracker](https://github.com/m
 ## Features
 
 - **Quick Timer:** Start, stop, cancel, or resume recent project-and-tag combinations.
+  
 - **Dashboard:** Study statistics, project/tag pie charts, yearly study calendar, consistency chart, and editable session history—all on one customizable page.
+  
 - **Projects & Tags:** Organize study sessions, set goals, track progress, and manage projects and tags.
+  
 - **Notebook:** Track milestones, notes, goals, reflections, and study logs.
+  
 - **Global Search:** Search projects, tags, notebook entries, goals, and sessions.
+  
 - **Customization:** Six themes, custom colors and logos, layout controls, Simple Mode, and dashboard widget reordering.
+  
 - **Quick Access:** Customizable keyboard shortcut (`Alt+Shift+J`) and right-click menu.
+  
 - **Import & Export:** JSON backups and CSV support for Toggl, Clockify, and spreadsheets.
+  
 
 ## Dashboard
 
@@ -66,7 +74,6 @@ Designed for large study histories, with limits of:
 - 200 characters per project name, tag name, and notebook title
 - 20,000 characters per note
 
-Data limits are centralized, and coordinated writes help prevent conflicting changes. Import and restore operations are designed to preserve data rather than silently truncate it.
 
 ## Privacy
 
@@ -99,12 +106,5 @@ app/
 
 The extension uses plain JavaScript ES modules with **no build step**.
 
-## What's Changed
-
-- Combined Dashboard and Reports into one customizable page.
-- Improved charts, yearly navigation, and Japanese search.
-- Added searchable popup tags and custom logos/icons.
-- Increased data limits and improved data safety.
-- Expanded search and improved session and Notebook management.
 
 **Japanese Tracker 時 is free, private, and built for long-term Japanese learning.**
