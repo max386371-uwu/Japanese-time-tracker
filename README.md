@@ -9,7 +9,6 @@ A free, unlimited, offline-first time tracker for your Japanese learning journey
 ## Screenshots
 <img width="1892" height="912" alt="NQbQSrF3rl" src="https://github.com/user-attachments/assets/5e4f7e16-218d-4451-b543-1b8aec9ebeb6" />
 <img width="1892" height="913" alt="IdJdtNiRRP" src="https://github.com/user-attachments/assets/14090133-7411-40e4-be01-b79ed65984c3" />
-## Screenshots
 
 <p align="center">
   <img width="49%" src="https://github.com/user-attachments/assets/5264f7bc-fd63-4236-a605-dec324e962e0" alt="Screenshot 1" />
@@ -26,7 +25,6 @@ A free, unlimited, offline-first time tracker for your Japanese learning journey
 - **Quick Timer:** Start, stop, cancel, or resume recent project-and-tag combinations.
 - **Dashboard:** Study statistics, project/tag pie charts, yearly study calendar, consistency chart, and editable session history—all on one customizable page.
 - **Projects & Tags:** Organize study sessions, set goals, track progress, and manage projects and tags.
-- **Japanese Search:** Search using hiragana, katakana, and romaji, including common spelling variations.
 - **Notebook:** Track milestones, notes, goals, reflections, and study logs.
 - **Global Search:** Search projects, tags, notebook entries, goals, and sessions.
 - **Customization:** Six themes, custom colors and logos, layout controls, Simple Mode, and dashboard widget reordering.
@@ -41,9 +39,6 @@ Dashboard and Reports are combined into one page with Day, Week, Month, Year, an
 
 Search matches hiragana and katakana interchangeably and supports romaji and common spelling variations. For kanji, include the reading in the name—for example, `日本語 にほんご` can be found with `nihongo`.
 
-## Themes
-
-Choose from six built-in themes: **Navy, Sumi Ink, Sakura, Washi Paper, Matcha, and Indigo.** Customize colors, icons, sidebar layout, density, and many, many other settings.
 
 ## Import & Export
 
