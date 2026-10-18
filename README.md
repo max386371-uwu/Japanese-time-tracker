@@ -9,7 +9,7 @@ A free, unlimited, offline-first, time tracker for Japanese.
 **[Download the Latest Release here](https://github.com/max386371-uwu/Japanese-time-tracker/releases/tag/v2.0)**
 
 
-Studying multiple languages? Check out **[Language Tracker](https://github.com/max386371-uwu/Language-Tracker)**, the all-languages version.
+Studying multiple languages? Check out **[Language Tracker](https://github.com/max386371-uwu/Language-Tracker)**, the all-languages version. (a bit outdated though)
 
 ## Screenshots
 <img width="1892" height="912" alt="NQbQSrF3rl" src="https://github.com/user-attachments/assets/5e4f7e16-218d-4451-b543-1b8aec9ebeb6" />
@@ -27,7 +27,7 @@ Studying multiple languages? Check out **[Language Tracker](https://github.com/m
 
 ## Features
 
-- **Quick Timer:** Start, stop, cancel, or resume recent project-and-tag combinations.
+- **Quick Timer/Extension popup:** Start, stop, cancel, or resume recent project-and-tag combinations.
   
 - **Dashboard:** Study statistics, project/tag pie charts, yearly study calendar, consistency chart, and editable session history—all on one customizable page.
   
@@ -37,7 +37,7 @@ Studying multiple languages? Check out **[Language Tracker](https://github.com/m
   
 - **Global Search:** Search projects, tags, notebook entries, goals, and sessions.
   
-- **Customization:** Six themes, custom colors and logos, layout controls, Simple Mode, and dashboard widget reordering.
+- **Customization:** Six themes, custom colors and logos, layout controls, Simple Mode, and dashboard widget reordering, and many, many more settings.
   
 - **Quick Access:** Customizable keyboard shortcut (`Alt+Shift+J`) and right-click menu.
   
@@ -107,4 +107,4 @@ app/
 The extension uses plain JavaScript ES modules with **no build step**.
 
 
-**Japanese Tracker 時 is free, private, and built for long-term Japanese learning.**
+**Japanese Tracker 時 was built with the help of Cluade Ai, and is free, private, and built for long-term Japanese learning.**
