@@ -1,12 +1,12 @@
 # Japanese Tracker 時
 
-A free, unlimited, offline-first time tracker for Japanese. 
+A free, unlimited, offline-first, time tracker for Japanese. 
 
 **No ads. No subscriptions. No accounts. No servers.** Your data stays on your device in your browser's local storage.
 
-## Download
+## Download 
 
-**[Download the Latest Release](https://github.com/max386371-uwu/Japanese-time-tracker/releases/tag/v2.0)**
+**[Download the Latest Release here](https://github.com/max386371-uwu/Japanese-time-tracker/releases/tag/v2.0)**
 
 
 Studying multiple languages? Check out **[Language Tracker](https://github.com/max386371-uwu/Language-Tracker)**, the all-languages version.
