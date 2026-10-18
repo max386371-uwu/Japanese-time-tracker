@@ -4,9 +4,9 @@ A free, unlimited, offline-first time tracker for your Japanese learning journey
 
 **No ads. No subscriptions. No accounts. No servers.** Your data stays on your device in your browser's local storage.
 
-##Download the latest release from here https://github.com/max386371-uwu/Japanese-time-tracker/releases/tag/v2.0
+## You can download the latest release from here: https://github.com/max386371-uwu/Japanese-time-tracker/releases/tag/v2.0
 
-**All-languages version here**  [Language Tracker](https://github.com/max386371-uwu/Language-Tracker).
+**All-languages version here**  [Language Tracker] (https://github.com/max386371-uwu/Language-Tracker).
 
 ## Screenshots
 <img width="1892" height="912" alt="NQbQSrF3rl" src="https://github.com/user-attachments/assets/5e4f7e16-218d-4451-b543-1b8aec9ebeb6" />
