@@ -107,4 +107,4 @@ app/
 The extension uses plain JavaScript ES modules with **no build step**.
 
 
-**Japanese Tracker 時 was built with the help of Cluade Ai, and is free, private, and built for long-term Japanese learning.**
+**Japanese Tracker 時 was built with the help of Cluade Ai, and is free, private, and built for long-term Japanese learners.**
